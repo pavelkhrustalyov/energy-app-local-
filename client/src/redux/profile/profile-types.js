@@ -1,0 +1,5 @@
+export const EDIT_PROFILE = 'EDIT_PROFILE';
+export const UPDATE_AVATAR = 'UPDATE_AVATAR';
+export const GET_PROFILE = 'GET_PROFILE';
+export const SET_PROFILE = 'SET_PROFILE';
+export const DELETTE_PROFILE = 'DELETTE_PROFILE';

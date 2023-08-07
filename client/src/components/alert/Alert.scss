@@ -1,0 +1,24 @@
+.alert__contain {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.alert {
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+    &.success {
+        background-color: lightgreen;
+    }
+
+    &.error {
+        background-color: red;
+    }
+}

@@ -1,0 +1,17 @@
+.post-form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.btn__wrapper {
+    margin-top: 20px;
+    // display: flex;
+    // justify-content: space-between;
+    // width: 600px;
+
+    button {
+        width: 100%;
+    }
+}

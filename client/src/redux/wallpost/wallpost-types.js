@@ -1,0 +1,2 @@
+export const CREATE_WALLPOST = 'CREATE_WALLPOST';
+export const GET_WALLPOST = 'GET_WALLPOST';

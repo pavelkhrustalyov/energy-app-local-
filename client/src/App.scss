@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+:root {
+  --primary-one: rgb(28, 92, 152);
+  --primary-two: rgb(35,56,68);
+  --color-active: rgb(222, 250, 67);
+  --color-main: rgb(41,57,62);
+  --color-bg: rgb(30, 35, 47);
+  --color-btn-unfollow: rgb(0, 191, 255);
+  --color-shadow: rgb(255, 255, 255);
+  --color-line: rgb(41,57,62);
+  --color-main-text: rgb(255,255,255);
+  --color-icon: rgb(204, 204, 204);
+  --color-support-text: rgb(255, 255, 255);
+  --color-date: rgb(128, 128, 128);
+  --color-icon-special: rgb(255, 192, 203);
+  --color-danger: rgb(216, 88, 88);
+  --color-message: rgb(30, 35, 47);
+  --color-my-message: rgb(52,112,165);
+  --color-success: rgb(52,112,165);
+  --color-swapi: rgb(9, 11, 24);
+  --color-alert-success: rgb(52,112,165);
+  --color-online: rgb(52,112,165);
+  --color-offline: rgb(255, 255, 255);
+  --color-image: rgba(0,0,0, 0.4);
+  --color-success:  rgb(8, 203, 92);
+}

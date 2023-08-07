@@ -1,0 +1,48 @@
+.wallpost {
+    padding: 20px;
+    margin-bottom: 25px;
+    background: #fff;
+    color: var(--color-primary);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+
+    &__utils {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--color-icon);
+        padding-bottom: 10px;
+    }
+
+    &__data {
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        flex-direction: column;
+
+        p {
+            line-height: 1;
+            margin: 0;
+        }
+    }
+
+    &__date {
+        color: var(--color-date);
+    }
+
+    &__title {
+        display: flex;
+    }
+
+    &__author {
+        img {
+            height: 70px;
+            width: 70px;
+            border-radius: 100%;
+        }
+    }
+
+    &__position {
+        font-weight: bold;
+    }
+}

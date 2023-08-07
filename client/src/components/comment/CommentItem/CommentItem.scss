@@ -1,0 +1,59 @@
+.post__comment {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post__comment:last-child {
+    padding: 0;
+    margin: 0;
+    border-bottom: none;
+}
+
+.comment__avatar {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.comment__user-info {
+    display: flex;
+    align-items: center;
+}
+
+.comment__date {
+    margin-bottom: 10px;
+}
+
+.comment__user {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__position {
+    font-weight: 300;
+}
+
+.comment__fullname {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.comment__delete-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    right: 20px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 100%;
+    width: 20px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
