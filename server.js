@@ -12,7 +12,6 @@ const postRoutes = require('./routes/postRoutes');
 const authRoutes = require('./routes/authRoutes');
 const wallPostRoutes = require('./routes/wallPostsRoutes');
 
-app.use('/api', createProxyMiddleware({ target: 'http://localhost:5000' }));
 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -20,6 +19,8 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     next();
   });
+
+app.use('/api', createProxyMiddleware({ target: 'http://localhost:5000' }));
 
 // import db
 const database = require('./database/db');

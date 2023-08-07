@@ -81,7 +81,7 @@ const deletePost = async (req, res) => {
         return res.status(422).json({ msg: "У вас нет прав для удаления поста" });
     }
 
-    post = await post.populate('userId', 'department').execPopulate();
+    post = await post.populate('userId', 'department');
 
     if (post.userId.department !== user.department) {
         return res.status(422).json({ msg: "У вас нет прав для удаления поста" });

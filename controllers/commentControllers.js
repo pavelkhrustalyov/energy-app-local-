@@ -48,11 +48,10 @@ const createComment = async (req, res) => {
 
     post.comments.push(comment._id);
 
-
     await comment.save();
     await post.save();
 
-    comment = await comment.populate('userId', ['name', 'lastname', 'avatar', 'position']).execPopulate();
+    comment = await comment.populate('userId', ['name', 'lastname', 'avatar', 'position'])
 
     return res.status(200).json({ comment })
 }
